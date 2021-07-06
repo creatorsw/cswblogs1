@@ -1,0 +1,279 @@
+<html>
+<head>
+<title>Multi Columns</title>
+<style>
+
+      .header{background-color:#efefef ; width:100% ;position:fixed;top:0px; left:0px; height:100px;z-index:10;}
+	  p.heading{ font-size: 300%; font-family: "segoe UI"; text-shadow: 2px 2px 3px #666666; width:45%;position:relative; bottom:20px;left:10px;}
+	  nav{position:absolute; top:40px   ; left:650px ; font-family:"segoe UI"; font-size:16;}
+	  li { display: inline;margin-right:40px; color:#000000; cursor:pointer;font-size:24px;}
+	  li:hover{color:#CC4262;  text-decoration:underline;}
+      .col1of2{width:60%; float:left; margin:10px; position:relative; left:100px;top:100px; font-family:"segoe UI"; font-size:20;}
+      blockquote{font-family:georgia; font-style:italic; font-size:24px;text-align:center; position:absolute; top:450px;left:530px;
+	               width:175;padding:30px 5px 0px 30px;
+				    background-image: url("images/quote%20up%20svg.svg");
+	                 background-repeat:no-repeat;
+	                 background-size: 60px 60px;
+	                 background-position:left-top;}
+     h1{font-size:300%; font-family:oswald;font-style:bold; }
+       ul.share{border-bottom:2px solid #000000;overflow: auto;width: 100%; padding-bottom:20px;}
+		h3{color: #181F21;}
+     p.postby{font-family:verdana; font-size:14px; color: #54525E;}
+	  li.logos{display:inline;margin-right:50px; float:left;}
+	  img.presentation{position:relative; left:50px;}
+
+	  .col2of2{width:300px; height:2050px; background-color: #C0C0C0; float:left;position:absolute; top:175px; right:30px;
+	             border-radius:25px;font-family:"segoe UI";font-size:18px;}
+		img.steve{border-radius:25px;}
+		h2.macintosh{text-align:center; font-family:"segoe UI"; font-size:18px; text-decoration:underline;}
+		p.center{text-align:center}
+		ul.timeline1{width: 250px;position:absolute; left:20px;}
+		li.list{ display:list-item;font-size:16px;list-style-type:square ! important; margin-left:10px; padding-bottom:5px;}
+		img.timcook{position:absolute; top:970px; left:10px; border-radius:25px;}
+		h2.tim{text-align:center; font-family:"segoe UI"; font-size:18px;position:absolute; bottom:530px;left:35px;}
+		ul.timeline2{position:absolute; left:20px;top:1500px;}
+
+		.col3{width:300px; height:400px; background-color:#ffffff; float:left; position:absolute; top:2250px; right:30px; border-radius:25px;
+		                       box-shadow: 5px 5px 4px 5px #888888;}
+	    .author{text-align:center; font-family:"segoe UI"; font-size:18px;}
+		.roundedcorners{border-radius:50%;}
+		p.description{font-size:14px; background-color:#C0C0C0;border-radius:0px 0px 25px 25px;}
+
+		.similar{width:90%;height:380px;position:absolute; top:2680px; left:85px;}
+		 .post1, .post2{float:left; margin-left:40px;margin-top:0px;}
+		 img.lefticon,img.righticon {float:left; margin-left:20px;margin-top:50px;}
+		 img.lefticon,img.righticon:hover{ cursor:pointer;}
+		p.youmaylike{font-family:"segoe UI"; font-style:bold; font-size:200%;position:relative; left:400px; margin-top:10px; border-bottom:2px solid #000000; width:40%; }
+
+		figcaption.post1desc{clear:both; display:block;font-family:sans-serif; font-size:24px;text-decoration:underline;width:400px;}
+		figcaption.post2desc{clear:both; display:block; font-family:sans-serif; font-size:24px;text-decoration:underline;width:400px;}
+		  figure.post1:hover{cursor:pointer; text-decoration:none;color:deeppink;}
+		  figure.post2:hover{cursor:pointer; text-decoration:none;color:deeppink;}
+
+		.footer{ width:100%; height:400px; background-color:#000000; position:absolute; top:3170px; left:0px; }
+		input{ padding:5px 15px 5px 15px; border:2px solid #000000; color: #000000; font-family:verdana; width:500px;height:50px;fon-size:20px;}
+			button{background-color:#1FC81F; width:150px;
+           border: none;
+		   color: white;
+		   padding: 15px 32px;
+           text-align: center;
+           text-decoration: none;
+           display: inline-block;
+ 	       font-size: 20px;position:relative; top:20px;}
+
+		   button:hover{ background-color: #1FC81F; cursor:pointer;}
+	       .notice{position:relative; top:20px; left:40px;width:40%;}
+         	p.staytuned{font-family:"segoe UI"; font-size:300%;color:white; }
+
+			.address{width:50%; height:300px;  float:left;display:inline;position:absolute; left:630px; top:20px;}
+			p.foothead{font-size:22px; color:white;font-family:"segoe UI";position:relative; left:20px;}
+			p.reachus{font-size:14px;  color:white;font-family:"segoe UI";position:relative; left:30px;}
+			p.follow ,p.reach{  color:white;font-family:"segoe UI";position:relative; left:30px;margin:0px; }
+			img.add1{padding-bottom:5px; position:relative; left:30px;top:5px;}
+			 li.followusat{display:inline;margin-right:40px; float:left;}
+</style>
+</head>
+<body>
+<div class="mainbody">
+<div class="header">
+
+<p class="heading"><b>Blog</b>-Creator Studio Works</p>
+<nav>
+<ul>
+<li >Home</li>
+<li>Products</li>
+<li class="coming-soon">Services</li>
+<li>About</li>
+<li>Contact</li>
+</ul>
+</nav>
+</div>
+
+ <div class="col1of2">
+ <div class="blogheading">
+  <h1 > A Time-lapse of Apple Inc.<br /> 1976-2021.</h1>
+  <h3>The story of the genius Steve Jobs ,on his journey for humanity and all about putting a dent in the universe.</h3>
+  <p class="postby">Blog-post by Prasanth Seepana,Creator Studio Works, May 15 2020, 21:03 (UTC+05:30). </p>
+<ul class="share">
+<li class="logos"><img src="images/twitter%20svg.svg" alt="twitter logo   "  title="Share on Twitter "  width="30px" height="30px"></li>
+<li class="logos"><img src="images/facebook%20svg.svg" alt="facebook logo   "  title="Share on Facebook  " width="30px" height="30px" ></li>
+<li class="logos"><img src="images/instagram%20svg.svg" alt="instagram logo   "  title="Share on Instagram " width="30px" height="30px" ></li>
+<li class="logos"><img src="images/linkedin%20svg.svg" alt="linkedin logo   "  title="Share on LinkedIn  " width="30px" height="30px" ></li>
+<li class="logos"><img src="images/google%20plus%20svg.svg" alt="google plus logo   "  title="Share on GooglePlus " width="30px" height="30px" ></li>
+</ul>
+
+  </div>
+
+ <img src="images/apple%20timeline.png" alt="Apple Inc. Logos" title="Apple Inc. Logos" height="320 " width="520">
+  <blockquote>"Stay<br /> Hungry<br /> Stay <br />Foolish"<br />-Steve Jobs</blockquote>
+
+
+ <p> Apple Computers, Inc. was founded on April 1, 1976, by college dropouts Steve Jobs and Steve Wozniak,
+  who brought to the new company a vision of changing the way people viewed computers. Jobs and Wozniak
+  wanted to make computers small enough for people to have them in their homes or offices. Simply put,
+  they wanted a computer that was user-friendly.</p>
+
+  <p>Jobs and Wozniak started out building the Apple I in Jobs' garage and sold them without a monitor, keyboard,
+  or casing (which they decided to add on in 1977). The Apple II revolutionized the computer industry with the
+  introduction of the first-ever color graphics. Sales jumped from $7.8 million in 1978 to $117 million in 1980,
+  the year Apple went public.</p>
+
+  <p>Wozniak left Apple in 1983 due to a diminishing interest in the day-to-day running of Apple Computers.
+  Jobs then hired PepsiCo's John Sculley to be president. However, this move backfired and after much
+  controversy with Sculley, Jobs left in 1985 and went on to new and bigger things. He founded his own
+  company NeXT Software and he also bought Pixar from George Lucas, which would later become a huge success
+  in computer animation of such movies as Toy Story, A Bug's Life, Monsters, Inc., and Finding Nemo.</p>
+
+ <p> Through the rest of the 1980s, Apple was still doing well and in 1990 it posted its highest profits yet.
+  This was, however, mostly due to the plans that Jobs had already set in motion before he left, most notably
+  his deal with a tiny company by the name of Adobe, creator of the Adobe Portable Document Format (PDF).
+  Together the two companies created the phenomenon known as desktop publishing.</p>
+
+ <p> Back in 1985 Sculley turned down an appeal from Microsoft founder Bill Gates to license its software.
+  This decision would later come back to haunt him because Microsoft, whose Windows operating system (OS)
+  featured a graphical interface similar to Apple's, became their toughest competition in the late 1980s
+  and throughout the 1990s.</p>
+
+ <p> Over the course of a few years, Apple's market share suffered slowly after its peak in 1990 and by 1996,
+  experts believed the company to be doomed. It was not until 1997, when Apple was desperately in need of
+  an operating system, that it bought out NeXT Software (Jobs' company) and the board of directors decided
+  to ask for some help from an old friend: Steve Jobs. Jobs became an interim CEO, or iCEO as
+  he called himself (Jobs was not officially the CEO until 2000). Jobs decided to make some changes around Apple.
+  He forged an alliance with Microsoft to create a Mac version of its popular office software.</p>
+  <img src="images/steve%20presentation.jpg" alt="Steve Jobs Presenting iPad" title="Steve Jobs Presenting iPad" width="600" height="400" class="presentation">
+ <p> Not long after this decision was the turning point for the company. Jobs revamped the computers and
+  introduced the iBook (a personal laptop). He also started branching out into mp3 players (iPod) and
+  media player software (iTunes). This was Jobs' best move yet. While computers are still an important
+  part of Apple, its music related products (i.e. iPod and iTunes) have become the company's most
+  profitable sector. Apple has also recently released the iPhone, a cellular phone, and the Apple TV.
+  While Steve Jobs died October 5, 2011, Apple continues on with his legacy.</p>
+
+  <p>Apple Inc. has pioneered its way through the computer industry—not once, but multiple times throughout
+  its existence. It believes in pushing the limits of creativity in order to produce interesting and valuable
+  products for society. After more than 30 years, it is undeniable that Apple "has had a profound impact on
+  technology, innovating and influencing not only how we use computers but the activities
+  for which what we use them."</p>
+  </div>
+
+  <div class="col2of2">
+  <img src="images/steve.png" alt="steve jobs with macintosh" title="Steve Jobs with Macintosh Computer" width="300" height="600" class="steve">
+  <h2 class="macintosh"> STEVEN PAUL JOBS<br />1955-2011</h2>
+  <div class="col2content">
+  <p class="center">Apple's History and Timeline :</p>
+  <ul class="timeline1">
+<li class="list">Founding and incorporation</li>
+<li class="list">Success with Macintosh</li>
+<li class="list">Decline and restructuring</li>
+<li class="list">Return to profitability</li>
+<li class="list">Intel transition & financial stability</li>
+<li class="list">Success with mobile devices</li>
+<li class="list">Post–Jobs era, Tim Cook's leadership</li>
+</ul>
+
+<img src="images/timcook.png" alt="Tim Cook At Apple" title="Tim Cook At Apple" width="280" height="476" class="timcook">
+  <h2 class="tim">TIM COOK <br />Present CEO at Apple Inc.</h2>
+
+<ul class="timeline2">
+<li class="list">Apple silicon transition</li>
+<li class="list">Products</li>
+<li class="list">Macintosh</li>
+<li class="list">iPod</li>
+<li class="list">iPhone</li>
+<li class="list">iPad</li>
+<li class="list">Apple Watch</li>
+<li class="list">Apple TV</li>
+<li class="list">HomePod</li>
+<li class="list">Software and services</li>
+<li class="list">Electric vehicles</li>
+<li class="list">Corporate identity</li>
+<li class="list">Logo</li>
+<li class="list">Advertising</li>
+<li class="list">Brand semiotics</li>
+<li  class="list">Brand loyalty</li>
+<li class="list">Home page</li>
+<li class="list">Headquarters</li>
+<li class="list">Stores</li>
+   </ul>
+
+</div>
+
+  </div>
+
+  <div class="col3">
+  <div class="author">
+  <p> About the Author</p>
+  <img  src="images/Untitled.png" class="roundedcorners" alt="Author of the page" title="Prasanth Seepana" width="150" height="150"/>
+  <p>Prasanth Seepana</p>
+  <p class="description"> Works At<br />Creator Studio Works</br>Young talented Content Developer, Stayed at CSW from its very starting stage and helped it grow to what it has been today.
+                 Creative and Experienced Problem Solver, The Change Agent At CSW.</p>
+  </div>
+  </div>
+
+  </div>
+  <div class="similar">
+  <p class="youmaylike"><b>Realted Posts for this article.....! </b></p>
+  <img src=" images/left%20svg.svg " alt="Press to View the Previous Post" title="Previous Post" class="lefticon" width="100" height="100">
+  <figure class="post1">
+  <img src=" images/796489-startups-thinkstock-010118_opt.jpg " alt="The Art of Starting Up " title="The art of Starting Up "  ">
+  <figcaption class="post1desc"> <p>The Art of Starting Up, building a start up from scratch</p> </figcaption>
+  </figure>
+
+  <figure class="post2 ">
+  <img src=" images/raymond%20loewy.jpg " alt="Historic 1953 STUDEBAKER design bu Raymond Loewy " title="Raymond Loewy:the man who designed everything. " >
+  <figcaption class="post2desc">  <p>Raymond Loewy: the man who designed everything..</p>  </figcaption>
+  </figure>
+  <img src="images/right%20svg.svg  " alt="Press to View the Previous Post" title="Next Post" class="righticon" width="100" height="100">
+
+
+ </div>
+
+  <div class="footer">
+
+  <div class="notice">
+
+  <p class="staytuned"> Stay Tuned With Us...</p>
+
+  <input type="email" name="email" placeholder="name@email.com" /> <br />
+  <button type="submit" value="Subscribe" > Subscribe </button>
+
+  </div>
+  <div class="address">
+   <p class="foothead"> Creator Studio Works LLC in co-ordinace with Infotain Media Pvt Ltd.</p>
+   <p class="reachus">Reach us at:<p>
+   <span class="addbar">
+   <img src=" images/locaation%20svg.svg"  alt="location " title="location "  width="20 " height="20 " class="add1" align="left" >
+  <p class="reach">221B Fleet Street, City of West Minster, London, United Kingdom </p> <br />
+
+  <img src=" images/mail%20svg.svg"  alt=" @ E-mail Us  " title="@ E-mail us "  width="20 " height="20 " class="add1" align="left" >
+    <p class="reach">support@creatorstudioworks.com </p> <br />
+
+	<img src="images/call%20svg.svg" alt=" Call us " title="Call us  " width="20 " height="20 " class="add1" align="left">
+    <p class="reach"> +44 7911 961340 </p> <br />
+
+   <img src="images/website%20svg.svg" alt="website" title="Find Us" width="20" height="20" class="add1" align="left">
+    <p class="reach">www.creatorstudioworks.com </p><br />
+
+  </span>
+  <p class="follow"> Follow Us At: </p>
+  <ul>
+  <li class="followusat"><img src="images/twitter%20black%20svg.svg " title="Follow on Twitter" width="50px" height="50px"> </li>
+  <li class="followusat"><img src="images/facebook%20black%20svg.svg " title="Follow on Facebook "  width="50px" height="50px" > </li>
+  <li class="followusat"><img src="images/instagram%20black%20svg.svg " title="Follow on Instagram"  width="50px" height="50px"> </li>
+  <li class="followusat"><img src="images/linkedin%20black%20svg.svg " title="Follow on LinkedIn"  width="50px" height="50px"> </li>
+  <li class="followusat"><img src="images/youtube%20balck%20svg.svg " title="Follow on Youtube "  width="50px" height="50px"> </li>
+  <li class="followusat"><img src="images/google%20plus%20blacksvg.svg " title="Follow on GooglePlus "  width="50px" height="50px"  > </li>
+  </ul>
+
+
+  </div>
+
+
+
+
+
+
+
+
+  </div>
+  </body>
+  </html>
